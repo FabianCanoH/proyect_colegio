@@ -1,0 +1,14 @@
+<div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Id_Gestion_Usuarios">ID Gestión Usuarios:</label>
+                        <input type="" class="form-control" id="Id_Gestion_Usuarios" name="Id_Gestion_Usuarios" value="<?php echo $record['Id_Gestion_Usuarios']; ?>" readonly>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Id_Solicitud_Cupo">ID Solicitud Cupo:</label>
+                        <input type="text" class="form-control" id="Id_Solicitud_Cupo" name="Id_Solicitud_Cupo" value="<?php echo $record['Id_Solicitud_Cupo']; ?>" readonly>
+                    </div>
+                </div>
+            </div>

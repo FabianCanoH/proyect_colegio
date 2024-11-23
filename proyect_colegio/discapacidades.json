@@ -1,0 +1,9 @@
+[
+    { "id": 1, "nombre": "Auditiva" },
+    { "id": 2, "nombre": "Cognitiva" },
+    { "id": 3, "nombre": "Física" },
+    { "id": 4, "nombre": "Mental" },
+    { "id": 5, "nombre": "Múltiple" },
+    { "id": 6, "nombre": "Visual" },
+    { "id": 7, "nombre": "Ninguna" }
+]

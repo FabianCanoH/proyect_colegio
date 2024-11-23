@@ -1,0 +1,51 @@
+<?php
+session_start();
+require_once '../controllers/AcudienteController.php';
+
+$controller = new AcudienteController();
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $controller->create();
+}
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Registro de Acudiente</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Crear Registro de Acudiente</h2>
+        <?php
+        if (isset($_SESSION['error'])) {
+            echo '<div class="alert alert-danger">' . $_SESSION['error'] . '</div>';
+            unset($_SESSION['error']);
+        }
+        if (isset($_SESSION['success'])) {
+            echo '<div class="alert alert-success">' . $_SESSION['success'] . '</div>';
+            unset($_SESSION['success']);
+        }
+        ?>
+        <form action="Acudiente_Create.php" method="POST">
+            <!-- Campos del formulario -->
+            <div class="form-group">
+                <label for="Id_Gestion_Usuarios">ID Gestión Usuarios:</label>
+                <input type="text" class="form-control" id="Id_Gestion_Usuarios" name="Id_Gestion_Usuarios" required>
+            </div>
+            <div class="form-group">
+                <label for="Id_Solicitud_Cupo">ID Solicitud Cupo:</label>
+                <input type="text" class="form-control" id="Id_Solicitud_Cupo" name="Id_Solicitud_Cupo" required>
+            </div>
+            <div class="form-group">
+                <label for="Numero_Identificacion_Acudiente">Número de Identificación del Acudiente:</label>
+                <input type="text" class="form-control" id="Numero_Identificacion_Acudiente" name="Numero_Identificacion_Acudiente" required>
+            </div>
+            <!-- Agregar los demás campos según la estructura de la tabla -->
+            <button type="submit" class="btn btn-primary">Crear</button>
+        </form>
+    </div>
+</body>
+</html>

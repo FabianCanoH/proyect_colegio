@@ -1,0 +1,21 @@
+[
+    {"id": 1, "nombre": "El Poblado"},
+    {"id": 2, "nombre": "Laureles - Estadio"},
+    {"id": 3, "nombre": "Belen"},
+    {"id": 4, "nombre": "Robledo"},
+    {"id": 5, "nombre": "Aranjuez"},
+    {"id": 6, "nombre": "Buenos Aires"},
+    {"id": 7, "nombre": "Castilla"},
+    {"id": 8, "nombre": "Doce de Octubre"},
+    {"id": 9, "nombre": "Guayabal"},
+    {"id": 10, "nombre": "Manrique"},
+    {"id": 11, "nombre": "San Javier"},
+    {"id": 12, "nombre": "Villa Hermosa"},
+    {"id": 13, "nombre": "Santa Cruz"},
+    {"id": 14, "nombre": "Popular"},
+    {"id": 15, "nombre": "San Sebastián de Palmitas"},
+    {"id": 16, "nombre": "Altavista"},
+    {"id": 17, "nombre": "San Antonio de Prado"},
+    {"id": 18, "nombre": "Santa Elena"},
+    {"id": 19, "nombre": "San Cristobal"}
+]

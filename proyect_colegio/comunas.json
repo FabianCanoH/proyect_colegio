@@ -1,0 +1,23 @@
+[
+    {"id": 1, "nombre": "Popular", "tipo": "Comuna"},
+    {"id": 2, "nombre": "Santa Cruz", "tipo": "Comuna"},
+    {"id": 3, "nombre": "Manrique", "tipo": "Comuna"},
+    {"id": 4, "nombre": "Aranjuez", "tipo": "Comuna"},
+    {"id": 5, "nombre": "Castilla", "tipo": "Comuna"},
+    {"id": 6, "nombre": "Doce de Octubre", "tipo": "Comuna"},
+    {"id": 7, "nombre": "Robledo", "tipo": "Comuna"},
+    {"id": 8, "nombre": "Villa Hermosa", "tipo": "Comuna"},
+    {"id": 9, "nombre": "Buenos Aires", "tipo": "Comuna"},
+    {"id": 10, "nombre": "La Candelaria", "tipo": "Comuna"},
+    {"id": 11, "nombre": "Laureles - Estadio", "tipo": "Comuna"},
+    {"id": 12, "nombre": "La América", "tipo": "Comuna"},
+    {"id": 13, "nombre": "San Javier", "tipo": "Comuna"},
+    {"id": 14, "nombre": "El Poblado", "tipo": "Comuna"},
+    {"id": 15, "nombre": "Guayabal", "tipo": "Comuna"},
+    {"id": 16, "nombre": "Belén", "tipo": "Comuna"},
+    {"id": 17, "nombre": "San Sebastián de Palmitas", "tipo": "Corregimiento"},
+    {"id": 18, "nombre": "San Cristóbal", "tipo": "Corregimiento"},
+    {"id": 19, "nombre": "Altavista", "tipo": "Corregimiento"},
+    {"id": 20, "nombre": "San Antonio de Prado", "tipo": "Corregimiento"},
+    {"id": 21, "nombre": "Santa Elena", "tipo": "Corregimiento"}
+]
